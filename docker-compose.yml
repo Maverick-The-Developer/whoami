@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8088:8088"
+    volumes:
+      - ./chroma.db:/app/chroma.db
+    command: ["python", "server.py"]
