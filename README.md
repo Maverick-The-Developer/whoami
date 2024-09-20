@@ -24,9 +24,16 @@ pip install -r ./requirements.txt
 ```
 
 # 실행방법
+윈도우인 경우
+chroma.db 디렉토리(폴더)를 삭제 후 아래 명령으로 재생성함.
+```sh
+python make_chroma_db.py
+```
+chroma.db 디렉토리가 생성되고, 정상적으로 종료되면 아래명령으로
+서버를 기동 시킴
 ```sh
 python main.py
 ```
 
 # API 확인
-localhost:8000/docs 주소로 접속하여 확인합니다.
+localhost:8088/docs 주소로 접속하여 확인합니다.
