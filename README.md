@@ -3,6 +3,22 @@
 
 # 설치방법
 클론 후
+
+가상환경 생성
+```sh
+python -m venv ./venv
+```
+가상환경 활성화
+```sh
+source ./venv/bin/activate
+```
+윈도우면
+```sh
+venv\Scripts\Activate.bat
+```
+> 스펠링 정확도를 확신할 수 없습니다. 웹 정보를 확인하세요.
+
+필요한 패키지 설치
 ```sh
 pip install -r ./requirements.txt
 ```
